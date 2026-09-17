@@ -2476,14 +2476,14 @@ button.emby-tab-button.guide-date-tab-button.emby-button:focus {
    background with equal-or-higher selector specificity than a bare
    .MuiAppBar-root - so both variants are targeted explicitly here to make
    sure the override actually wins in every state, not just one. */
-.MuiAppBar-root.MuiAppBar-colorTransparent,
+/*.MuiAppBar-root.MuiAppBar-colorTransparent,
 .MuiAppBar-root.MuiAppBar-colorDefault,
 .MuiAppBar-root {
     background-color: var(--header-solid-background-color) !important;
     background-image: none !important;
     box-shadow: none !important;
 }
-
+*/
 /* Keep the toolbar in a single row on all screen sizes */
 .MuiToolbar-root {
     flex-wrap: nowrap !important;
